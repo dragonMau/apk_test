@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = FaR random
+title = My Application
 
 # (str) Package name
-package.name = FaR rand app
+package.name = myapp
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -13,16 +13,16 @@ package.domain = org.test
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = py,kv
 
 # (list) List of inclusions using pattern matching
-#source.include_patterns = assets/*,images/*.png
+#source.include_patterns = apk/*
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec
 
 # (list) List of directory to exclude (let empty to not exclude anything)
-#source.exclude_dirs = tests, bin, venv
+#source.exclude_dirs = tests, bin, venv, .vscode
 
 # (list) List of exclusions using pattern matching
 # Do not prefix with './'
